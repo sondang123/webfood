@@ -1,0 +1,67 @@
+* {
+    /* font-family: "Karma", sans-serif; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karma', serif;
+}
+
+html, body {
+    font-size: 15px;
+    line-height: 1.5;
+}
+.main{
+   text-align: center;
+   width: 70%;
+   margin: 0 auto;
+   
+}
+.heading{
+    font-size:30px;
+    font-weight: 300;
+   
+}
+.list-food{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -2px;
+}
+.list-food-item{
+    width: 25%;
+    padding: 10px 2px;
+}
+.list-food-img{
+    width: 100%;
+   height: 400px;
+}
+.item-title{
+    font-size: 16px;
+}
+.item__sub-title{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+
+}
+h2,h5,
+p{
+    line-height: 1.8;
+    
+}
+
+.food{
+    border-bottom: 1px solid #333;
+    padding: 20px 0;
+    
+}
+.footer{
+    display: flex;
+    margin: 20px ;
+    text-align: left;
+}
+.column{
+    padding: 0 10px;
+}
+.powered{
+    padding: 10px 0;
+}
